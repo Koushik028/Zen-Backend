@@ -28,7 +28,7 @@ const signupStudent = async (req, res) => {
     const randomString =
       Math.random().toString(36).substring(2, 15) +
       Math.random().toString(36).substring(2, 15);
-    const link = `${process.env.FEURL}/confirm/${randomString}`;
+    const link = `${process.env.FE_URL}/confirm/${randomString}`;
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
