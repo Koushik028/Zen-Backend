@@ -1,5 +1,5 @@
 const portfolioRouter = require("express").Router();
-const { postPortfolio, fetchPortfolio } = require("../controllers/PortfolioController");
+const { postPortfolio, fetchPortfolio } = require("../Controllers/PortfolioController");
 
 portfolioRouter.post("/Student/Portfolio", postPortfolio);
 

@@ -1,5 +1,5 @@
 const queryRouter = require("express").Router();
-const { postQuery, deleteQuery, fetchQuery } = require("../controllers/QueryController");
+const { postQuery, deleteQuery, fetchQuery } = require("../Controllers/QueryController");
 
 queryRouter.post("/Student/Query", postQuery);
 

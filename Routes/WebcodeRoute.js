@@ -1,5 +1,5 @@
 const webcodeRouter = require("express").Router();
-const { postWebcode, fetchWebcode } = require("../controllers/WebcodeController");
+const { postWebcode, fetchWebcode } = require("../Controllers/WebcodeController");
 
 webcodeRouter.post("/Student/Webcode", postWebcode);
 

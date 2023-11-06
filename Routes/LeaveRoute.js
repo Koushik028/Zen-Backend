@@ -1,5 +1,5 @@
 const leaveRouter = require("express").Router();
-const { postLeave, fetchLeave, deleteLeave } = require("../controllers/LeaveController");
+const { postLeave, fetchLeave, deleteLeave } = require("../Controllers/LeaveController");
 
 leaveRouter.post("/Student/Leave", postLeave);
 
